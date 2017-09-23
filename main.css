@@ -1,0 +1,22 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0f0f0;
+	text-align: center;
+	width: 50%;
+	margin:auto;
+}
+hr {
+	padding:0px;
+	size:0px;
+}
+#content{
+	position:relative;
+	top:10px;
+	border-top:1px solid grey;
+	border-left:2px solid grey;
+	border-right:2px solid grey;
+	border-bottom:1px solid grey;
+	position:relative;
+	bottom:17px;
+	background-color:#F9F9F9;
+}
