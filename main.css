@@ -2,21 +2,27 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #fafbfc;
 	text-align: center;
-	width: 50%;
-	margin:auto;
+	width:100%;
+	z-index: 10;
+}
+html{
+	width:100%;
 }
 hr {
 	padding:0px;
 	size:0px;
 }
 #content{
+	width: 50%;
+	margin:auto;
 	position:relative;
 	top:10px;
 	border:1px solid grey;
 	border-radius: 5px;
 	position:relative;
 	bottom:17px;
-	background-color:#FcFcFc;
+	background-color:#fdfdfd;
+	z-index:11;
 }
 #content p{
 	text-align: left;
@@ -29,4 +35,21 @@ hr {
 #content ul{
 	text-align: left;
 	font-size:14px;
+}
+#topbackground{
+	background-color:#e6ffee;
+	height:15%;
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#bottombackground{
+	z-index=10;
+	background-color:#e6f0ff;
+	width:100%;
+	position:absolute;
+	left:0px;
+	height:85%;
+	bottom:0px;
 }
