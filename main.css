@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #f0f0f0;
+	background-color: #fafbfc;
 	text-align: center;
 	width: 50%;
 	margin:auto;
@@ -12,11 +12,17 @@ hr {
 #content{
 	position:relative;
 	top:10px;
-	border-top:1px solid grey;
-	border-left:2px solid grey;
-	border-right:2px solid grey;
-	border-bottom:1px solid grey;
+	border:1px solid grey;
+	border-radius: 5px;
 	position:relative;
 	bottom:17px;
-	background-color:#F9F9F9;
+	background-color:#FcFcFc;
+}
+#content p{
+	text-align: left;
+	font-size:20px;
+}
+#content ul{
+	text-align: left;
+	font-size:14px;
 }
