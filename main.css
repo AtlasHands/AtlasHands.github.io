@@ -29,19 +29,7 @@ hr {
 	padding: 5px;
 	transition: background-color .5s;
 	border-radius: 3px;
-}
-#myName:hover{
-	background-color: rgba(105,105,105,.5);
-	animation: colortrans 5s infinite;
-}
-@keyframes colortrans{
-	0%{color: white;}
-	40%{color: blue;}
-	80%{color: yellow;}
-	100%{color: white;}
-
-
-
+	user-select: none;
 }
 #content{
 	width: 50%;
@@ -55,7 +43,7 @@ hr {
     background-color: rgba(255,255,255,.8);
 	z-index:11;
 	box-shadow: 2px 2px 2px rgba(255,255,255,.25);
-	transition: background-color .6s;
+	
 }
 #content:hover{
 	background-color:  rgba(255,255,255);
@@ -65,6 +53,7 @@ hr {
 	padding-left:2em;
 	text-align: left;
 	font-size:14px;
+
 }
 #content li{
 	text-align: left;
