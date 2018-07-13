@@ -43,7 +43,7 @@ hr {
     background-color: rgba(255,255,255,.8);
 	z-index:11;
 	box-shadow: 2px 2px 2px rgba(255,255,255,.25);
-	
+	transition: background-color .6s;
 }
 #content:hover{
 	background-color:  rgba(255,255,255);
